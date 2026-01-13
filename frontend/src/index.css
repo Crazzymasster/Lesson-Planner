@@ -1,0 +1,108 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* WCAG AA compliant colors */
+  color-scheme: light;
+  color: #212121;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #212121;
+}
+
+a {
+  font-weight: 600;
+  color: #1565c0;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Accessible focus indicators - WCAG 2.4.7 */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  button {
+    border: 2px solid #000000;
+  }
+}
+
+/* Dark mode with proper contrast - WCAG AA compliant */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #e8e8e8;
+    background-color: #1a1a1a;
+  }
+  
+  a {
+    color: #79b8ff;
+  }
+  
+  a:hover {
+    color: #a8d3ff;
+  }
+  
+  button {
+    background-color: #2a2a2a;
+    color: #e8e8e8;
+  }
+}
