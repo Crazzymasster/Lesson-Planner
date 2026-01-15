@@ -1,6 +1,6 @@
 # Coding Lesson Planner 🎓
 
-An AI-powered web application for organizing coding lessons, managing student groups, and generating engaging lesson plans for teaching kids how to code. Now with a comprehensive lesson library organized by programming language!
+An AI-powered web application for organizing coding lessons, managing student groups, and generating engaging lesson plans for teaching kids how to code.
 
 ![Tech Stack](https://img.shields.io/badge/React-TypeScript-blue)
 ![Tech Stack](https://img.shields.io/badge/ColdFusion-REST_API-orange)
@@ -259,5 +259,3 @@ The app uses vanilla CSS with CSS variables for theming. Main styles are in:
 - Review API quotas and rate limits
 
 ---
-
-**Happy Teaching! 🎉**
