@@ -258,18 +258,6 @@ The app uses vanilla CSS with CSS variables for theming. Main styles are in:
 - Check internet connectivity
 - Review API quotas and rate limits
 
-## 📝 License
-
-This project is created for educational and interview demonstration purposes.
-
-## 🤝 Contributing
-
-This is a portfolio project, but suggestions and improvements are welcome!
-
-## 📧 Contact
-
-Created for interview demonstration - showcasing full-stack development with ColdFusion, React, and TypeScript.
-
 ---
 
 **Happy Teaching! 🎉**
